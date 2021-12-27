@@ -7,7 +7,7 @@ section {
 
 .hero {
     background-color: #1c1d25;
-    height: 75vh;
+    height: 100vh;
     color: white;
     font-size: 40px;
 }
@@ -44,12 +44,12 @@ ul {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 90px;
     margin: 0;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 p {
@@ -65,12 +65,12 @@ p {
 
 .hero-text {
     margin-left: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .button {
     width: 200px;
-    height: 60px;
+    height: 50px;
     border-radius: 30px;
     background-color: rgb(130, 93, 250);
     text-align: center;
@@ -99,12 +99,13 @@ p {
 
 .logo {
     height: 80px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .social {
     margin: 10px;
 }
+
 .sub-section {
     display: flex;
     justify-content: space-around;
@@ -174,20 +175,42 @@ span {
     color: rgb(251, 255, 0);
 }
 
-/*.hamburger {
+.hamburger {
     display: none;
-}*/
+}
 
-/*@media only screen and (max-width: 1000px) {
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
     .hamburger {
         display: block;
         border: 0;
-        background-color:;
+        background-color: transparent;
         color: white;
         font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
     }
 
     ul {
         display: none;
+        background-color: #2b2c38;
+        margin: 0px;
     }
-}*/
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
+}
