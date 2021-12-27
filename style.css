@@ -7,7 +7,7 @@ section {
 
 .hero {
     background-color: #1c1d25;
-    height: 100vh;
+    height: 75vh;
     color: white;
     font-size: 40px;
 }
@@ -44,12 +44,12 @@ ul {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 60px;
     margin: 0;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 p {
